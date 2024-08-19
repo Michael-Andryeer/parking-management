@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3465ea58-63c4-4262-a20a-72191eb95107" name="Changes" comment="Criando UsuarioRepository,UsuarioService e UsuarioController">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="3465ea58-63c4-4262-a20a-72191eb95107" name="Changes" comment="Recurso para criar um novo usuario">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/parkingmanager/parking_management/service/UsuarioService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkingmanager/parking_management/service/UsuarioService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/parkingmanager/parking_management/web/controller/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkingmanager/parking_management/web/controller/UsuarioController.java" afterDir="false" />
@@ -29,6 +28,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.34/lombok-1.18.34.jar!/lombok/Data.class" root0="SKIP_INSPECTION" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -100,7 +102,8 @@
       <workItem from="1721924721897" duration="2411000" />
       <workItem from="1721927196498" duration="763000" />
       <workItem from="1722916325452" duration="1769000" />
-      <workItem from="1723771832834" duration="776000" />
+      <workItem from="1723771832834" duration="2228000" />
+      <workItem from="1724098125520" duration="2670000" />
     </task>
     <task id="LOCAL-00001" summary="Configuração inicial: Timezone e Locale">
       <option name="closed" value="true" />
@@ -134,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722918090370</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Recurso para criar um novo usuario">
+      <option name="closed" value="true" />
+      <created>1723772756932</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1723772756932</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +156,7 @@
     <MESSAGE value="Configuração de acesso ao banco de dados MySQL" />
     <MESSAGE value="Classe de entidade do Usuario" />
     <MESSAGE value="Criando UsuarioRepository,UsuarioService e UsuarioController" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criando UsuarioRepository,UsuarioService e UsuarioController" />
+    <MESSAGE value="Recurso para criar um novo usuario" />
+    <option name="LAST_COMMIT_MESSAGE" value="Recurso para criar um novo usuario" />
   </component>
 </project>
