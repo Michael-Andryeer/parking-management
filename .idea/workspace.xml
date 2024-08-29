@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3465ea58-63c4-4262-a20a-72191eb95107" name="Changes" comment="Criando recurso para buscar usúario por ID">
+    <list default="true" id="3465ea58-63c4-4262-a20a-72191eb95107" name="Changes" comment="Recurso para alterar a senha do usuario">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/parkingmanager/parking_management/service/UsuarioService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkingmanager/parking_management/service/UsuarioService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/parkingmanager/parking_management/web/controller/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkingmanager/parking_management/web/controller/UsuarioController.java" afterDir="false" />
@@ -105,7 +105,7 @@
       <workItem from="1723771832834" duration="2228000" />
       <workItem from="1724098125520" duration="2815000" />
       <workItem from="1724794888809" duration="774000" />
-      <workItem from="1724902246189" duration="806000" />
+      <workItem from="1724902246189" duration="1056000" />
     </task>
     <task id="LOCAL-00001" summary="Configuração inicial: Timezone e Locale">
       <option name="closed" value="true" />
@@ -155,7 +155,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724101597531</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Recurso para alterar a senha do usuario">
+      <option name="closed" value="true" />
+      <created>1724903146965</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1724903146965</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +176,7 @@
     <MESSAGE value="Criando UsuarioRepository,UsuarioService e UsuarioController" />
     <MESSAGE value="Recurso para criar um novo usuario" />
     <MESSAGE value="Criando recurso para buscar usúario por ID" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criando recurso para buscar usúario por ID" />
+    <MESSAGE value="Recurso para alterar a senha do usuario" />
+    <option name="LAST_COMMIT_MESSAGE" value="Recurso para alterar a senha do usuario" />
   </component>
 </project>

@@ -6,6 +6,8 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.List;
+
 @RequiredArgsConstructor // Cria um metódo construtor com a variavel UsuarioRepository, como metódo construtor, fazendo a injeção de dep. pelo proprio construtor
 @Service
 public class UsuarioService {
@@ -29,5 +31,10 @@ public class UsuarioService {
        Usuario user = buscarPorId(id);
        user.setSenha(senha);
        return user;
+    }
+
+    @Transactional(readOnly = true)
+    public List<Usuario> buscarTodos() {
+        return usuarioRepository.findAll();
     }
 }
